@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Uranium.Domain.Data.Repositories;
 using Uranium.Domain.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(connectionString);
     options.EnableSensitiveDataLogging();
 });
+builder.Services.AddScoped<IEntityRepository>(f => f.GetRequiredService<AppDbContext>());
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

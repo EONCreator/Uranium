@@ -8,7 +8,7 @@ using Uranium.Domain.Data.Repositories;
 
 namespace Uranium.Domain.Services
 {
-    public class AppDbContext : IdentityDbContext<User>
+    public class AppDbContext : IdentityDbContext<User>, IEntityRepository
     {
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)
