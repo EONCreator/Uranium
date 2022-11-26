@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uranium", "Uranium\Uranium.csproj", "{ABF46D81-F57F-424E-B162-06F1A681D715}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A4C847EA-CB2B-4EEA-B78E-970EA113B2F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uranium.Domain.Core", "Uranium.Domain.Core\Uranium.Domain.Core.csproj", "{BB1BCEC6-B278-4B9A-BC91-0F9689037934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uranium.Domain.Services", "Uranium.Domain.Services\Uranium.Domain.Services.csproj", "{CABE1060-2A12-4998-8BDC-9269C4C2533E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uranium.Domain.Data", "Uranium.Domain.Data\Uranium.Domain.Data.csproj", "{130A4A10-166D-41EE-B5B3-FFA85812735E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABF46D81-F57F-424E-B162-06F1A681D715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF46D81-F57F-424E-B162-06F1A681D715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF46D81-F57F-424E-B162-06F1A681D715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF46D81-F57F-424E-B162-06F1A681D715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1BCEC6-B278-4B9A-BC91-0F9689037934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1BCEC6-B278-4B9A-BC91-0F9689037934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1BCEC6-B278-4B9A-BC91-0F9689037934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1BCEC6-B278-4B9A-BC91-0F9689037934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABE1060-2A12-4998-8BDC-9269C4C2533E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABE1060-2A12-4998-8BDC-9269C4C2533E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABE1060-2A12-4998-8BDC-9269C4C2533E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABE1060-2A12-4998-8BDC-9269C4C2533E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130A4A10-166D-41EE-B5B3-FFA85812735E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130A4A10-166D-41EE-B5B3-FFA85812735E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130A4A10-166D-41EE-B5B3-FFA85812735E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130A4A10-166D-41EE-B5B3-FFA85812735E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB1BCEC6-B278-4B9A-BC91-0F9689037934} = {A4C847EA-CB2B-4EEA-B78E-970EA113B2F2}
+		{CABE1060-2A12-4998-8BDC-9269C4C2533E} = {A4C847EA-CB2B-4EEA-B78E-970EA113B2F2}
+		{130A4A10-166D-41EE-B5B3-FFA85812735E} = {A4C847EA-CB2B-4EEA-B78E-970EA113B2F2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9686ECE5-D8A9-4865-BF52-C129688DD2C8}
+	EndGlobalSection
+EndGlobal
